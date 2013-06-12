@@ -1,0 +1,278 @@
+input {
+	width: 56px;
+}
+
+.row,  .block-left, .block{
+	display: inline;
+
+	float: left;
+}
+
+.info {
+	width: 90%;
+
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.pieChart {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.myChart {
+	width: 300px;
+	height: 300px;
+
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+#centerContainer {
+	width: 97%;
+	margin: 0 auto;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.block-left {
+	display: block;
+}
+
+.taskInput {
+	width: 120px;
+}
+
+.notesInput {
+	width: 250px;
+}
+
+#addRowTR {
+	border-bottom: 1px solid #ddd;
+}
+
+#addRowBTN {
+	float: right;
+}
+
+#hrSubmit {
+	width: 600px;
+	margin-bottom: 20px;
+}
+
+#sumTotal {
+	margin-left: 30px;
+}
+
+#sumTotal * {
+	display: inline;
+}
+
+#totTime {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-webkit-transition: border linear .2s,box-shadow linear .2s;
+	display: inline-block;
+	height: 20px;
+	padding: 4px 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #555;
+	vertical-align: middle;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+	text-align: center;
+}
+
+caption {
+	color: white;
+	background-image: -webkit-linear-gradient(top, rgb(251, 180, 80), rgb(248, 148, 6));
+	background-color: rgb(248, 148, 6);
+
+
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-webkit-transition: border linear .2s,box-shadow linear .2s;
+	height: 20px;
+	padding: 4px 6px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 20px;
+
+	vertical-align: middle;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+
+	text-align: center;
+}
+
+#sumTable {}
+
+#sumTable tbody{
+	color: #99999C;
+}
+#sumTable table {
+}
+#hoursTable  input{
+	width: 50px;
+}
+#hoursTable td:first-child {
+	width: 115px;
+}
+
+#error {
+	color: red;
+
+	float:;
+
+	text-align: center;
+	margin-top: 260px;
+	margin-left: 13px;
+	padding: 10px;
+	max-width: 350px;
+}
+
+.time {
+	background-color: white;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+	margin: 0 auto;
+	padding: 0px 0;
+
+	text-align: center;
+
+	overflow: hidden;
+	min-width:90px;
+
+}
+.time span {
+	padding: 4px 0;
+}
+
+.time * {
+	display: inline-block;
+}
+
+.taskOut {
+	background-color: white;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+
+
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+	margin: 0 auto;
+	width:100%;
+	padding: 0px 0;
+	min-width: 140px;
+
+	text-align: center;
+
+	overflow: hidden;
+}
+.taskOut span {
+	padding: 4px 0;
+}
+
+.notesOut {
+	background-color: white;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+
+
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+	margin: 0 auto;
+	width:100%;
+	padding: 0px 0;
+	min-width: 280px;
+	max-height: 28px;
+
+
+	text-align: center;
+
+	overflow: auto;
+	overflow-x: scroll;
+}
+.notesOut span {
+	padding: 4px 0;
+}
+.notesOut * {
+	display: inline-block;
+	overflow: hidden;
+
+	max-height: 21px;
+}
+
+.taskOut * {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.delete {
+	float:right;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 28px;
+
+	padding: 3px 12px;
+}
+
+#hoursTable td{
+	display:;
+}
+
+#clearOutputTables {
+	float: right;
+
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.added {
+	color: black;
+}
+
+.checkRow {
+	background-color:;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	margin-bottom: 0px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
