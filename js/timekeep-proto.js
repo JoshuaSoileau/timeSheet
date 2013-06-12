@@ -208,7 +208,6 @@ timeKeep = Class.create({
 		var that = this;
 		$$('.delete').each( function(row, index) {
 			if(row.hasClassName('pleaseDelete')) {
-				//alert(index);
 				row.removeClassName('pleaseDelete');
 				row.up(2).remove();
 				that.outputData.splice(index, 1);
