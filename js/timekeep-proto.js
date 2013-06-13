@@ -6,6 +6,8 @@ timeKeep = Class.create({
 		this.initObservers();
 		this.inputData = [];
 		this.outputData = [];
+
+		this.scope = this;
 	},
 
 	initObservers: function(){
@@ -357,8 +359,8 @@ timeKeep = Class.create({
 		var that = this;
 		// grab all the rows of the 'sum hours' table
 		var table = $$('#sumTable tbody tr');
-		if(table.length === this.outputData.length) {
-			this.addRow();
+		if(table.length <= this.outputData.length) {
+			this.addOutputRow();
 		}
 		table.each( function(row, index) {
 			if(index < that.outputData.length) {
